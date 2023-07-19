@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "app:build": "node_modules/.bin/next build",
+    "app:start": "node_modules/.bin/next start",
+    "app:start:dev": "node_modules/.bin/next dev",
+    "lint:fix": "node_modules/.bin/next lint --fix"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "axios": "^0.27.2",
+    "emotion-normalize": "^11.0.1",
+    "moment": "^2.29.4",
+    "next": "12.2.5",
+    "next-qrcode": "^2.2.0",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.35.0",
+    "react-to-print": "^2.14.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@emotion/babel-preset-css-prop": "^11.10.0",
+    "@types/node": "18.7.6",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.7.4"
+  }
+}
