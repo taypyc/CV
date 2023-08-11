@@ -96,7 +96,7 @@ export const locale: TLocaleData = {
         tnt : { title : 'tools & technologies' },
     },
     ua : {
-        achievements : { title : 'досягнення' },
+        achievements : { title : 'Досягнення' },
         certifications : { title : 'Сертифікації' },
         conferences : { title : 'Конференції' },
         education : {

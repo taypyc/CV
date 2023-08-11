@@ -11,12 +11,12 @@ interface IToolData {
 
 const tnt: IToolData[] = [
     {
-        career : ['frontend', 'magento'],
+        career : ['frontend'],
         label : {
             en : 'Front End',
             ua : 'Фронтенд',
         },
-        items : 'NextJS, React, Redux, Redux Toolkit',
+        items : 'JavaScript, NextJS, React, Redux, Redux Toolkit, CSS-in-JS, GraphQL, Grunt/Gulp/Webpack, jQuery',
     },
     {
         career : ['frontend'],
@@ -24,7 +24,7 @@ const tnt: IToolData[] = [
             en : 'Styling',
             ua : 'Стилізація',
         },
-        items : 'Tailwind, Styled Components, SASS/LESS, Emotion, Styled JSX, CSS modules',
+        items : 'Tailwind, Styled Components, SASS/SCSS/LESS, Emotion, Styled JSX, CSS modules, CSS 3',
     },
     {
         career : ['frontend'],
@@ -35,12 +35,20 @@ const tnt: IToolData[] = [
         items : 'Material UI, Tailwind UI, Theme UI, Flowbite',
     },
     {
-        career : ['frontend'],
+        career : ['frontend', 'magento'],
+        label : {
+            en : 'Frameworks',
+            ua : 'Фреймворки',
+        },
+        items : 'Bootstrap, Boilerplate',
+    },
+    {
+        career : ['frontend', 'magento'],
         label : {
             en : 'Infrastructure',
             ua : 'Інфраструктура',
         },
-        items : 'AWS, Docker, Jenkins, GitLab CI, Vercel',
+        items : 'AWS, Docker/Devilbox, Jenkins, GitLab CI/CD, Vercel, LAMP-stack, Microsoft Azure',
     },
     {
         career : ['frontend'],
@@ -48,7 +56,7 @@ const tnt: IToolData[] = [
             en : 'Back End',
             ua : 'Бекенд',
         },
-        items : 'Express, NestJS, Mongoose, Prisma',
+        items : 'PHP, Python, MYSQL, Express, NestJS, Mongoose, Prisma, NodeJS, Camunda',
     },
     {
         career : ['magento', 'frontend'],
@@ -56,16 +64,24 @@ const tnt: IToolData[] = [
             en : 'Domain knowledge',
             ua : 'Базові технології',
         },
-        items : `JS, TS, HTML, CSS, Network protocols, HTTP, REST, Graph QL, SQL, Unix-based systems,
-         cloud-based systems, client-server architecture`,
+        items : `JavaScript, TypeScript, HTML5, CSS, SASS/SCSS/LESS, Network protocols, HTTP, REST, Graph QL, SQL, Unix-based systems,
+         cloud-based systems, client-server architecture, Version Control Systems (git/svn/mercurial)`,
     },
     {
-        career : ['magento'],
+        career : ['magento', 'frontend'],
+        label : {
+            en : 'Tools for design and HTML markup',
+            ua : 'Інструменти для роботи з дизайном та версткою',
+        },
+        items : `Photoshop, illustrator, Zeplin, inVision, Avocode, Figma, Adobe XD`,
+    },
+    {
+        career : ['magento', 'frontend'],
         label : {
             en : 'Management tools',
             ua : 'Інструменти управління',
         },
-        items : 'Jira, Confluence, Test Rail, Spira-Team, Rally',
+        items : 'Jira, Confluence, Test Rail, Spira-Team, Rally, Trello, Wrike, Redmine, Basecamp',
     },
     {
         career : ['frontend'],
@@ -79,10 +95,10 @@ const tnt: IToolData[] = [
     {
         career : ['magento'],
         label : {
-            en : 'Automation frameworks',
-            ua : 'Фреймворки автоматизації',
+            en : 'Мадженто-стек',
+            ua : 'Magento stack',
         },
-        items : 'Pact, Jest, Mocha, WDIO, Allure 2, Test Cafe, Nightwatch, Chai, Frisby, Gemini',
+        items : 'jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, composer, NodeJS, Magento CLI, Magento PWA Studio, GraphQL, ElasticSearch, OpenSearch',
     },
 ];
 

@@ -55,7 +55,7 @@ import { style } from 'src/styles/pages/cv.style';
 interface ICVProps {
     achievements: string[];
     certifications: ICertificationsData[];
-    conferences: IConferencesData[];
+    /*conferences: IConferencesData[];*/
     contacts: IContactData[];
     education: IEducationFacility[];
     experience: IJob[];
@@ -99,8 +99,8 @@ const CV: NextPage<ICVProps> = ({
                         languages={languages}
                         locale={{ info : locale.info, summary : locale.summary }}
                         summary={summary}/>
-                    <Portfolio locale={locale.portfolio} portfolio={portfolio}/>
                     <Achievements locale={locale.achievements} achievements={achievements}/>
+                    <Portfolio locale={locale.portfolio} portfolio={portfolio}/>                    
                     {/* <Conferences locale={locale.conferences} conferences={conferences}/>*/}
                     <TNT locale={locale.tnt} tnts={tnt}/>
                     <Teaser {...locale.teaser}/>

@@ -14,39 +14,27 @@ type TEducationFacilityData = TInfo & TDates;
 
 export const education: TEducationFacilityData[] = [
     {
-        startYear : 2004,
-        endYear : 2008,
+        startYear : 2002,
+        endYear : 2006,
         en : {
-            title : 'Technological College',
-            specialisation : 'computer systems and networks service engineer',
+            title : 'Mykolayiv High School 21',
+            specialisation : 'Programmer - engineer. Bachelor diploma.',
         },
         ua : {
-            title : 'Технологічний Коледж',
-            specialisation : 'Обслуговування компʼютерних систем та мереж',
+            title : 'Миколаївське вище професійне училище №21.',
+            specialisation : 'Програміст - інженер. Диплом Бакалавра.',
         },
     },
     {
-        startYear : 2008,
-        endYear : 2011,
+        startYear : 2006,
+        endYear : 2009,
         en : {
-            title : 'Foreign Languages University',
-            specialisation : 'philologist-interpreter',
+            title : 'Black Sea State University named after Petro Mohyla',
+            specialisation : 'Intelligent decision-making systems, Faculty of Computer Science, Specialist diploma.',
         },
         ua : {
-            title : 'Інститут Іноземної Філології',
-            specialisation : 'Філологія-Переклад',
+            title : 'Чорноморський державний університет імені Петра Могили',
+            specialisation : 'Інтелектуальні системи прийняття рішень. Факультет компʼютерних наук. Диплом Спеціаліста.',
         },
-    },
-    {
-        startYear : 2019,
-        endYear : 2020,
-        en : {
-            title : 'DAN.IT',
-            specialisation : 'Front-end development',
-        },
-        ua : {
-            title : 'DAN.IT',
-            specialisation : 'Front-end development',
-        },
-    },
+    },    
 ];

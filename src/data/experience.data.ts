@@ -40,45 +40,42 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Conducting software analysis, feature development, testing, and debugging',
-                ua : 'Розробка фіч, аналіз продукту, тестування, дебаггінг',
+                en : 'Development of new functionality of the the application, estimation time of development/improvement of new functionality, discussion of tasks, testing, debugging.',
+                ua : 'Розробка нового функціоналу додатку, оцінювання часу розробки/доробки нового функціоналу, обговорення задач, тестування, налагодження',
             },
             {
-                en : 'Perform technical assessment of mockups/wireframes and architectural designs/specifications',
-                ua : 'Технічний аналіз макетів та прототипів, створення на їх основі архітектурних специфікацій',
+                en : 'Technical analysis of the complexity of tasks, grooming sessions, working with the Agile team',
+                ua : 'Технічний аналіз складності виконання задач, грумінг сесії, робота з командою по Agile',
             },
             {
-                en : 'Translate complex functional, technical and business requirements into architectural designs',
-                ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами' +
-                    ' та їх імплементація у архітектурних специфікаціяї',
+                en : 'Work with complex functional, technical, architectural requirements',
+                ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами',
             },
             {
-                en : 'Helping other team members grow as engineers through code review, pairing, and mentoring',
-                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях' +
-                    ' та менторингу',
+                en : 'Support the development of other team members through participation in code reviews, pair activities and mentoring',
+                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях та менторингу',
             },
             {
-                en : 'Write and update technical documentation related to developed features',
+                en : 'Writing and updating the technical documentation of the project',
                 ua : 'Написання та актуалізація технічної документації проекту',
             },
             {
-                en : 'Sharing experience and mentoring junior colleagues',
+                en : 'Mentoring and coaching junior team members',
                 ua : 'Менторинг та наставництво молодших членів команди',
             },
         ],
         achievements : [
             {
-                en :
-                    'Implemented flexible and solid architecture for multi-language support',
-                ua : 'Реалізував гнучку та еффективну архітектуру локалізації',
+                en : 'Implemented many new functionalities for better user experience',
+                ua : 'Реалізував багато нових функціональних можливостей для кращого досвіду кінцевого користувача',
             },
             {
-                en : 'Led product migration to NextJS framework',
-                ua : 'Керував міграцією продукта на NextJS фреймворк',
+                en : 'Managed the migration of the product to the Angular framework',
+                ua : 'Керував міграцією продукту на Angular фреймворк',
             },
             {
-                en : 'Statistically the most productive developer in team',
-                ua : 'Статистично найпродуктивніший розробник',
+                en : 'Familiarized with and understood the Camunda management system - a platform for automation the work process and decision-making.',
+                ua : 'Ознайомився та розібрався з системою управління Камунда - платформою для автоматизації робочого процесу та прийняття рішень.',
             },
         ],
     },
@@ -98,44 +95,42 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Conducting software analysis, feature development, testing, and debugging',
+                en : '',
                 ua : 'Розробка фіч, аналіз продукту, тестування, дебаггінг',
             },
             {
-                en : 'Perform technical assessment of mockups/wireframes and architectural designs/specifications',
+                en : '',
                 ua : 'Технічний аналіз макетів та прототипів, створення на їх основі архітектурних специфікацій',
             },
             {
-                en : 'Translate complex functional, technical and business requirements into architectural designs',
-                ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами' +
-                    ' та їх імплементація у архітектурних специфікаціяї',
+                en : '',
+                ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами та їх імплементація у архітектурних специфікаціяї',
             },
             {
-                en : 'Helping other team members grow as engineers through code review, pairing, and mentoring',
-                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях' +
-                    ' та менторингу',
+                en : '',
+                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях та менторингу',
             },
             {
-                en : 'Write and update technical documentation related to developed features',
+                en : '',
                 ua : 'Написання та актуалізація технічної документації проекту',
             },
             {
-                en : 'Sharing experience and mentoring junior colleagues',
+                en : '',
                 ua : 'Менторинг та наставництво молодших членів команди',
             },
         ],
         achievements : [
             {
                 en :
-                    'Implemented flexible and solid architecture for multi-language support',
+                    '',
                 ua : 'Реалізував гнучку та еффективну архітектуру локалізації',
             },
             {
-                en : 'Led product migration to NextJS framework',
+                en : '',
                 ua : 'Керував міграцією продукта на NextJS фреймворк',
             },
             {
-                en : 'Statistically the most productive developer in team',
+                en : '',
                 ua : 'Статистично найпродуктивніший розробник',
             },
         ],
@@ -156,30 +151,26 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Participate in all SDLC stages including estimating, technical design,' +
-                    ' and application implementation',
-                ua : 'Приймати участь у розробці продукту на всіх етапах SDLC, ' +
-                    'виконуючи оцінку, проектування та розробку нового функціоналу',
+                en : '',
+                ua : 'Приймати участь у розробці продукту на всіх етапах SDLC, виконуючи оцінку, проектування та розробку нового функціоналу',
             },
             {
-                en : 'Contribute to quality control - participate in code review, document ' +
-                    'developed solutions, own processes.',
-                ua : 'Вносити свій вклад у якість продукту: ' +
-                    'проводити ревʼю коду, документувати новий функціонал та процеси',
+                en : '',
+                ua : 'Вносити свій вклад у якість продукту: проводити ревʼю коду, документувати новий функціонал та процеси',
             },
             {
-                en : 'Front End adjustment for testing needs',
+                en : '',
                 ua : 'Підлаштування фронтенду для тестування',
             },
 
         ],
         achievements : [
             {
-                en : 'Implemented quality-oriented practices, resulted in development speed-up',
+                en : '',
                 ua : 'Імплементував якісно-орієнтовані практики розробки, що призвело до прискорення процесу розробки',
             },
             {
-                en : 'Developed sustainable and stable architecture for user journey simulations',
+                en : '',
                 ua : 'Розробив стабільну та гнучку архітектуру для симуляції шляху користувача в системі',
             },
         ],
@@ -200,25 +191,25 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Research & Development',
+                en : '',
                 ua : 'Дослідження та Розробка',
             },
             {
-                en : 'Use agile methodologies for communication and flexibility',
+                en : '',
                 ua : 'Робота в agile-команді',
             },
             {
-                en : 'Support and improve integration with CI/CD process',
+                en : '',
                 ua : 'Розробка та підтримка CI/CD процесу',
             },
             {
-                en : 'Contribute to quality assurance: develop unit, integration, and e2e tests',
+                en : '',
                 ua : 'Забезпечення якості продукту: розробка модульних, інтеграційних та е2е тестів',
             },
         ],
         achievements : [
             {
-                en : 'Implemented end-2-end testing solution',
+                en : '',
                 ua : 'Реалізував з нуля е2е фреймворк для тестів',
             },
         ],
@@ -239,38 +230,37 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Leading department of 20+ QA specialists, teams management and development',
+                en : '',
                 ua : 'Управління відділком забезпечення якості (20+ спеціалістів), менеджмент команд',
             },
             {
-                en : 'Developing quality assurance process and testing strategy and its ongoing improvement',
+                en : '',
                 ua : 'Розробка та постійне удосконалення процесу забезпечення якості',
             },
             {
-                en : 'Resources & changes management',
+                en : '',
                 ua : 'Управління ресурсами та контроль змін',
             },
         ],
         achievements : [
             {
-                en : 'Created from the scratch QA department composed of several teams with different specialisations',
-                ua : 'Створив з нуля підрозділ забезпечення якості,' +
-                    ' що складався з декількох команд різної спеціалізації',
+                en : '',
+                ua : 'Створив з нуля підрозділ забезпечення якості, що складався з декількох команд різної спеціалізації',
             },
             {
-                en : 'Maintained zero personnel loss rate during all cooperation period',
+                en : '',
                 ua : 'Знизив до нуля текучість кадрів та підтримував таку динаміку протягом всього періоду взаємодії',
             },
             {
-                en : 'Developed stable and flexible quality assurance process',
+                en : '',
                 ua : 'Розробив стабільний та гнучкий процес забезпечення якості',
             },
             {
-                en : 'Designed all internal and external operation processes',
+                en : '',
                 ua : 'Розробив всі процеси внутрішньої та зовнішньої взаємодії',
             },
             {
-                en : 'Build strong self-organising team able to function independently',
+                en : '',
                 ua : 'Побудував самоорганізуючийся відділок, здатний функціонувати автономно',
             },
         ],
@@ -291,24 +281,23 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Design and implement functional tests both for mobile and web applications',
+                en : '',
                 ua : 'Розробка та впровадження функціональних тестів для мобільних та веб застосунків',
             },
             {
-                en : 'Work with product owners and tech leads to identify and prioritize risks',
+                en : '',
                 ua : 'Кооперація з продукт овнерами та тех лідами для виявлення та приоретизації ризиків',
             },
             {
-                en : 'Execute test scenarios and analyze the results',
+                en : '',
                 ua : 'Виконання тестових сценаріїв та аналіз результатів',
             },
             {
-                en : 'Estimate testing tasks and prioritise workloads for self and other testers if required',
-                ua : 'Оцінка тестових завдань, приоритизація робочого навантаження для себе ' +
-                    'та (за потреби) інших учасників команди',
+                en : '',
+                ua : 'Оцінка тестових завдань, приоритизація робочого навантаження для себе та (за потреби) інших учасників команди',
             },
             {
-                en : 'Take part in all scrum ceremonies to represent the testing function ',
+                en : '',
                 ua : 'Участь у скрам-мітингах для представництва команди забезпечення якості',
             },
         ],

@@ -6,14 +6,14 @@ export interface IGoalData {
     label: string;
 }
 
-export const goals: IGoalData[] = [
-    {
-        career : ['frontend'],
-        label : 'Head of QA department',
-    },
+export const goals: IGoalData[] = [    
     {
         career : ['frontend', 'magento'],
         label : 'Frontend developer',
+    },
+    {
+        career : ['frontend'],
+        label : 'Angular developer',
     },
     {
         career : ['frontend'],
@@ -25,6 +25,6 @@ export const goals: IGoalData[] = [
     },
     {
         career : ['magento'],
-        label : 'MAGENTO',
+        label : 'Magento Lead Front-End developer',
     },
 ];
