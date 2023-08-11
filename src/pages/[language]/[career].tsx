@@ -24,7 +24,8 @@ import { ITNT, TNT } from 'src/components/sections/tnt/tnt';
 
 // RESOURCES
 import { ICertificationsData } from 'src/data/certifications.data';
-import { IConferencesData } from 'src/data/conferences.data';
+
+// import { IConferencesData } from 'src/data/conferences.data';
 import { IContactData } from 'src/data/contacts.data';
 import { IJob } from 'src/components/sections/experience/job/job';
 import { ILanguageData } from 'src/data/languages.data';
@@ -55,7 +56,8 @@ import { style } from 'src/styles/pages/cv.style';
 interface ICVProps {
     achievements: string[];
     certifications: ICertificationsData[];
-    /*conferences: IConferencesData[];*/
+
+    /* conferences: IConferencesData[]; */
     contacts: IContactData[];
     education: IEducationFacility[];
     experience: IJob[];
@@ -99,8 +101,8 @@ const CV: NextPage<ICVProps> = ({
                         languages={languages}
                         locale={{ info : locale.info, summary : locale.summary }}
                         summary={summary}/>
-                    <Achievements locale={locale.achievements} achievements={achievements}/>
-                    <Portfolio locale={locale.portfolio} portfolio={portfolio}/>                    
+                    <Achievements locale={locale.achievements} achievements={achievements} />
+                    <Portfolio locale={locale.portfolio} portfolio={portfolio}/>
                     {/* <Conferences locale={locale.conferences} conferences={conferences}/>*/}
                     <TNT locale={locale.tnt} tnts={tnt}/>
                     <Teaser {...locale.teaser}/>

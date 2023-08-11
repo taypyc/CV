@@ -8,5 +8,5 @@ export const certifications: ICertificationsData[] = [
     {
         title : 'ICAgile certified professional',
         certificate : 'ic-agile.png',
-    },    
+    },
 ];

@@ -1,5 +1,6 @@
 // MODULES
 import React, { useMemo } from 'react';
+import Image from 'next/image';
 
 // COMPONENTS
 import { Typography } from 'src/components/generics/typography/typography';
@@ -63,7 +64,7 @@ export const Job = ({ job, locale }: IJobProps) => {
                 {`${job.period.start}${(job.period.end) ? ` - ${job.period.end}` : ''}`}
             </Typography>
             <div css={style.logo}>
-                <img
+                <Image
                     src={`/static/img/experience/${job.logo.filename}`}
                     width={job.logo.width}
                     height={job.logo.height}

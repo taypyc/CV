@@ -64,8 +64,9 @@ const tnt: IToolData[] = [
             en : 'Domain knowledge',
             ua : 'Базові технології',
         },
-        items : `JavaScript, TypeScript, HTML5, CSS, SASS/SCSS/LESS, Network protocols, HTTP, REST, Graph QL, SQL, Unix-based systems,
-         cloud-based systems, client-server architecture, Version Control Systems (git/svn/mercurial)`,
+        items : `JavaScript, TypeScript, HTML5, CSS, SASS/SCSS/LESS, Network protocols, HTTP, REST, Graph QL,
+        'SQL, Unix-based systems, cloud-based systems, client-server architecture, Version Control 
+        Systems (git/svn/mercurial)`,
     },
     {
         career : ['magento', 'frontend'],
@@ -73,7 +74,7 @@ const tnt: IToolData[] = [
             en : 'Tools for design and HTML markup',
             ua : 'Інструменти для роботи з дизайном та версткою',
         },
-        items : `Photoshop, illustrator, Zeplin, inVision, Avocode, Figma, Adobe XD`,
+        items : 'Photoshop, illustrator, Zeplin, inVision, Avocode, Figma, Adobe XD',
     },
     {
         career : ['magento', 'frontend'],
@@ -98,7 +99,8 @@ const tnt: IToolData[] = [
             en : 'Мадженто-стек',
             ua : 'Magento stack',
         },
-        items : 'jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, composer, NodeJS, Magento CLI, Magento PWA Studio, GraphQL, ElasticSearch, OpenSearch',
+        items : 'jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, composer, NodeJS, Magento CLI, Magento PWA ' +
+        'Studio, GraphQL, ElasticSearch, OpenSearch',
     },
 ];
 

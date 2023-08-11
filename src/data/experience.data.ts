@@ -40,8 +40,10 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Development of new functionality of the the application, estimation time of development/improvement of new functionality, discussion of tasks, testing, debugging.',
-                ua : 'Розробка нового функціоналу додатку, оцінювання часу розробки/доробки нового функціоналу, обговорення задач, тестування, налагодження',
+                en : `Development of new functionality of the the application, estimation time of
+                development/improvement of new functionality, discussion of tasks, testing, debugging.`,
+                ua : `Розробка нового функціоналу додатку, оцінювання часу розробки/доробки нового
+                функціоналу, обговорення задач, тестування, налагодження`,
             },
             {
                 en : 'Technical analysis of the complexity of tasks, grooming sessions, working with the Agile team',
@@ -52,8 +54,10 @@ export const experience: IExperienceData[] = [
                 ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами',
             },
             {
-                en : 'Support the development of other team members through participation in code reviews, pair activities and mentoring',
-                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях та менторингу',
+                en : `Support the development of other team members through participation in code reviews, 
+                pair activities and mentoring`,
+                ua : `Підтримка розвитку інших членів команди через участь у код-ревʼю,
+                парних активностях та менторингу`,
             },
             {
                 en : 'Writing and updating the technical documentation of the project',
@@ -74,8 +78,10 @@ export const experience: IExperienceData[] = [
                 ua : 'Керував міграцією продукту на Angular фреймворк',
             },
             {
-                en : 'Familiarized with and understood the Camunda management system - a platform for automation the work process and decision-making.',
-                ua : 'Ознайомився та розібрався з системою управління Камунда - платформою для автоматизації робочого процесу та прийняття рішень.',
+                en : 'Familiarized with and understood the Camunda management system - a platform for automation' +
+                'the work process and decision-making.',
+                ua : 'Ознайомився та розібрався з системою управління Камунда - платформою для автоматизації ' +
+                ' робочого процесу та прийняття рішень.',
             },
         ],
     },
@@ -104,11 +110,13 @@ export const experience: IExperienceData[] = [
             },
             {
                 en : '',
-                ua : 'Робота зі складними функціональними, технічними, архітектурними вимогами та їх імплементація у архітектурних специфікаціяї',
+                ua : `Робота зі складними функціональними, технічними, архітектурними вимогами та їх імплементація 
+                у архітектурних специфікаціяї`,
             },
             {
                 en : '',
-                ua : 'Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях та менторингу',
+                ua : `Підтримка розвитку інших членів команди через участь у код-ревʼю, парних активностях 
+                та менторингу`,
             },
             {
                 en : '',
@@ -121,8 +129,7 @@ export const experience: IExperienceData[] = [
         ],
         achievements : [
             {
-                en :
-                    '',
+                en : '',
                 ua : 'Реалізував гнучку та еффективну архітектуру локалізації',
             },
             {
@@ -152,11 +159,13 @@ export const experience: IExperienceData[] = [
         responsibilities : [
             {
                 en : '',
-                ua : 'Приймати участь у розробці продукту на всіх етапах SDLC, виконуючи оцінку, проектування та розробку нового функціоналу',
+                ua : `Приймати участь у розробці продукту на всіх етапах SDLC, виконуючи оцінку,
+                проектування та розробку нового функціоналу`,
             },
             {
                 en : '',
-                ua : 'Вносити свій вклад у якість продукту: проводити ревʼю коду, документувати новий функціонал та процеси',
+                ua : `Вносити свій вклад у якість продукту: проводити ревʼю коду,
+                документувати новий функціонал та процеси`,
             },
             {
                 en : '',
@@ -245,7 +254,8 @@ export const experience: IExperienceData[] = [
         achievements : [
             {
                 en : '',
-                ua : 'Створив з нуля підрозділ забезпечення якості, що складався з декількох команд різної спеціалізації',
+                ua : `Створив з нуля підрозділ забезпечення якості, що складався з декількох команд різної 
+                спеціалізації`,
             },
             {
                 en : '',
@@ -294,7 +304,8 @@ export const experience: IExperienceData[] = [
             },
             {
                 en : '',
-                ua : 'Оцінка тестових завдань, приоритизація робочого навантаження для себе та (за потреби) інших учасників команди',
+                ua : `Оцінка тестових завдань, приоритизація робочого навантаження для себе та (за потреби)
+                інших учасників команди`,
             },
             {
                 en : '',

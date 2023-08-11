@@ -43,8 +43,8 @@ const achievements: IAchievementData[] = [
             achievement : {
                 en : 'A good managerial background that allows me to act independently ' +
                     'in accordance with project goals',
-                ua : 'Маю серйозний досвід розробки проектів різної складності, що дозволяє мені ефективно виконувати задачі' +
-                    ' у відповідності з цілями проекту',
+                ua : `Маю серйозний досвід розробки проектів різної складності, що дозволяє мені ефективно 
+                виконувати задачі у відповідності з цілями проекту`,
             },
         },
         {

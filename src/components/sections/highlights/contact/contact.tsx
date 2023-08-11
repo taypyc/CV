@@ -41,7 +41,7 @@ export const Contact = ({ content, href, label, type }: IContactData) => {
             case 'behance':
                 return <BehanceIcon/>;
             case 'drive':
-                return <DriveIcon/>
+                return <DriveIcon/>;
         }
     }, []);
 

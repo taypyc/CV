@@ -6,7 +6,7 @@ export interface IGoalData {
     label: string;
 }
 
-export const goals: IGoalData[] = [    
+export const goals: IGoalData[] = [
     {
         career : ['frontend', 'magento'],
         label : 'Frontend developer',
