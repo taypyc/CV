@@ -29,7 +29,7 @@ export const TNT = ({ tnts, locale }: ITNTProps) => {
                 <React.Fragment key={tnt.label}>
                     <div css={style.head}>
                         <CheckmarkIcon/>
-                        <Typography variant="Text">{tnt.label}</Typography>
+                        <Typography variant="Text"><strong>{tnt.label}</strong></Typography>
                     </div>
                     <Typography variant="Text">{tnt.items}</Typography>
                 </React.Fragment>

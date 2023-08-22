@@ -33,7 +33,7 @@ const tnt: IToolData[] = [
             ua : 'Бібліотеки компонентів',
         },
         items : 'Material UI, Tailwind UI, Theme UI, Flowbite',
-    },
+    },    
     {
         career : ['frontend', 'magento'],
         label : {
@@ -101,6 +101,14 @@ const tnt: IToolData[] = [
         },
         items : 'jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, composer, NodeJS, Magento CLI, Magento PWA ' +
         'Studio, GraphQL, ElasticSearch, OpenSearch',
+    },
+    {
+        career : ['frontend', 'magento'],
+        label : {
+            en : 'Utilities for working with icons and fonts',
+            ua : 'Утиліти для роботи з іконками та шрифтами',
+        },
+        items : 'Fontello, FontAwesome',
     },
 ];
 

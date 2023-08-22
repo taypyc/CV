@@ -10,10 +10,17 @@ interface ISummary {
 
 export const summary: ISummary[] = [
     {
-        career : ['frontend', 'magento'],
+        career : ['frontend'],
         statement : {
             en : 'Information technology specialist with extensive experience in front-end development.',
             ua : 'Спеціаліст з інформаційних технологій з багатим досвідом фронтенд-розробки.',
+        },
+    },
+    {
+        career : ['magento'],
+        statement : {
+            en : 'Information technology specialist with extensive experience in Magento front-end development.',
+            ua : 'Спеціаліст з інформаційних технологій з багатим досвідом Magento фронтенд-розробки.',
         },
     },
     {
@@ -30,11 +37,10 @@ export const summary: ISummary[] = [
         statement : {
             en : `A specialist with more than sixteen years of diverse experience in the software
             development domain. My main working stack: JavaScript, Typescript, NextJS, React, Redux,
-            Angular, KnockoutJS, CSS-in-JS and Magento stack.,
-              and Quality Assurance.`,
+            Angular, KnockoutJS, CSS-in-JS and Magento stack`,
             ua : `Спеціаліст з понад шістнадцятьма роками різноманітного досвіду у сфері розробки
             програмного забезпечення. Мій основний робочий стек: JavaScript, Typescript, NextJS, React, Redux,
-            Angular, KnockoutJS, CSS-in-JS та Magento-стек,`,
+            Angular, KnockoutJS, CSS-in-JS та Magento-стек`,
         },
     },
     {
