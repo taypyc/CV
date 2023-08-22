@@ -49,7 +49,7 @@ const responsibilities: Interpolation<Theme> = ({ spacing }) => ({
     width : '650px',
 
     ul : { paddingLeft : spacing.s },
-    li : { marginBottom : spacing.s }
+    li : { marginBottom : spacing.s },
 });
 
 const achievements: Interpolation<Theme> = ({ spacing }) => ({
@@ -57,7 +57,7 @@ const achievements: Interpolation<Theme> = ({ spacing }) => ({
     textAlign : 'justify',
 
     ul : { paddingLeft : spacing.s },
-    li : { marginBottom : spacing.s }
+    li : { marginBottom : spacing.s },
 });
 
 export const style = {

@@ -16,7 +16,7 @@ const container: Interpolation<Theme> = ({ color, dimensions, layout, spacing })
     },
 });
 
-const cover: Interpolation<Theme> = ({ color, dimensions, layout, spacing }) => ({
+const cover: Interpolation<Theme> = ({ layout }) => ({
     position : 'relative',
 
     [layout.printer] : { height : '100vh' },

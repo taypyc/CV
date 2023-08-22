@@ -33,7 +33,7 @@ const tnt: IToolData[] = [
             ua : 'Бібліотеки компонентів',
         },
         items : 'Material UI, Tailwind UI, Theme UI, Flowbite',
-    },    
+    },
     {
         career : ['frontend', 'magento'],
         label : {

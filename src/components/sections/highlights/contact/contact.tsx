@@ -17,7 +17,7 @@ import { IContactData, TContact } from 'src/data/contacts.data';
 // STYLES
 import { style } from 'src/components/sections/highlights/contact/contact.style';
 
-export const Contact = ({ content, href, label, type }: IContactData) => {
+export const Contact = ({ href, label, type }: IContactData) => {
     const [text, setText] = useState(label);
 
     const handleCopyClick = useCallback((text: string) => {
