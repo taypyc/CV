@@ -79,7 +79,7 @@ export const locale: TLocaleData = {
             specialization : 'Specialization',
         },
         experience : {
-            title : 'education',
+            title : 'Experience',
             achievements : 'Achievements',
             responsibilities : 'Responsibilities',
         },

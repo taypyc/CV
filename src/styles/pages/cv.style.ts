@@ -4,7 +4,7 @@ import { Interpolation, Theme } from '@emotion/react';
 const container: Interpolation<Theme> = ({ color, dimensions, layout, spacing }) => ({
     margin : '0 auto',
     padding : spacing.l,
-    width : dimensions.pageWidth,
+    maxWidth : dimensions.pageWidth,
     boxSizing : 'border-box',
     background : color.surface,
     boxShadow : '0 0 0.1cm rgba(0,0,0,0.5)',

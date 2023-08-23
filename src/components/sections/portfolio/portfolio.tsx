@@ -1,6 +1,5 @@
 // MODULES
-import React, { useMemo } from 'react';
-import Link from 'next/link';
+import { useMemo } from 'react';
 
 // RESOURCES
 import { IPortfolioData } from 'src/data/portfolio.data';
@@ -8,7 +7,7 @@ import { IPortfolioLocale } from 'src/data/locale.data';
 import { SectionHeader } from 'src/components/generics/section-header/section-header';
 
 // STYLE
-import { style } from 'src/components/sections/portfolio/portfolio.style';
+import { style, portfolioWrapper, description } from 'src/components/sections/portfolio/portfolio.style';
 
 interface IConferencesProps {
     locale: IPortfolioLocale;
@@ -20,11 +19,10 @@ export const Portfolio = ({ locale, portfolio }: IConferencesProps) => {
         portfolio.map(item => (
             <>
                 <div css={style} key={item.href}>
-                    <Link href={item.href}>
-                        <a target="_blank">
-                            {item.name}
-                        </a>
-                    </Link>
+                    <a target="_blank" rel="noreferrer" href={item.href}>
+                        {item.name}
+                    </a>
+                    <p css={description}>{item.description}</p>
                 </div>
             </>)
         )), [portfolio]);
@@ -32,7 +30,9 @@ export const Portfolio = ({ locale, portfolio }: IConferencesProps) => {
     return (
         <section>
             <SectionHeader title={locale.title} isClickable/>
-            {renderPortfolio}
+            <div css={portfolioWrapper}>
+                {renderPortfolio}
+            </div>
         </section>
     );
 };

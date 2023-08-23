@@ -17,10 +17,10 @@ const globalStyles = ({ color, spacing }: Theme) => css`
 		-moz-osx-font-smoothing: grayscale;
 		user-select: none;
 	}
-	
-	h1, h2, h3, p {
-		margin: 0;
-	}
+
+	h1, h2, h3, h4, h5, h6, p {
+		margin: 0 0 10px 0;
+	}	
 	
 	section {
 		margin-bottom: ${spacing.m}px;

@@ -39,9 +39,7 @@ export const TNT = ({ tnts, locale }: ITNTProps) => {
     return (
         <section>
             <SectionHeader title={locale.title}/>
-            <div css={style.container}>
-                {renderTNT}
-            </div>
+            {renderTNT}
         </section>
     );
 };

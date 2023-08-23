@@ -9,6 +9,8 @@ const container: Interpolation<Theme> = ({ spacing }) => ({
     alignItems : 'center',
 });
 
+const title = () => ({ marginBottom : 0 });
+
 const item: Interpolation<Theme> = ({ color, spacing }) => ({
     display : 'flex',
     alignItems : 'center',
@@ -34,5 +36,5 @@ const item: Interpolation<Theme> = ({ color, spacing }) => ({
     },
 });
 
-export const style = { container, item };
+export const style = { container, title, item };
 

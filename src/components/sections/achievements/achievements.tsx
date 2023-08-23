@@ -21,10 +21,10 @@ export const Achievements = ({ achievements, locale }: IAchievementsProps) => {
 
     const renderAchievements = useMemo(() => (
         achievements.map(achievement => (
-                <React.Fragment key={achievement}>
+                <li key={achievement}>
                     <CheckmarkIcon/>
                     <Typography variant="Text">{achievement}</Typography>
-                </React.Fragment>
+                </li>
             )
         )), [achievements]);
 
@@ -32,7 +32,9 @@ export const Achievements = ({ achievements, locale }: IAchievementsProps) => {
         <section>
             <SectionHeader title={locale.title}/>
             <div css={style}>
-                {renderAchievements}
+                <ul>
+                    {renderAchievements}
+                </ul>
             </div>
         </section>
     );

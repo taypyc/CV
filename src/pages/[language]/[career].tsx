@@ -15,7 +15,8 @@ import { Certifications } from 'src/components/sections/certifications/certifica
 /* import { Conferences } from 'src/components/sections/conferences/conferences'; */
 import { Experience } from 'src/components/sections/experience/experience';
 import { Highlights } from 'src/components/sections/highlights/highlights';
-import { Teaser } from 'src/components/sections/teaser/teaser';
+
+// import { Teaser } from 'src/components/sections/teaser/teaser';
 import { Title } from 'src/components/sections/title/title';
 import { Tools } from 'src/components/generics/tools/tools';
 import { Portfolio } from 'src/components/sections/portfolio/portfolio';
@@ -102,14 +103,14 @@ const CV: NextPage<ICVProps> = ({
                         locale={{ info : locale.info, summary : locale.summary }}
                         summary={summary}/>
                     <Achievements locale={locale.achievements} achievements={achievements} />
-                    <Portfolio locale={locale.portfolio} portfolio={portfolio}/>
-                    {/* <Conferences locale={locale.conferences} conferences={conferences}/>*/}
                     <TNT locale={locale.tnt} tnts={tnt}/>
-                    <Teaser {...locale.teaser}/>
+                    <Portfolio locale={locale.portfolio} portfolio={portfolio} />
+                    {/* <Conferences locale={locale.conferences} conferences={conferences}/>*/}
+                    {/* <Teaser {...locale.teaser}/> */}
+                    <Education locale={locale.education} education={education}/>
+                    <Certifications locale={locale.certifications} certifications={certifications}/>
+                    <Experience locale={locale.experience} experience={experience}/>
                 </div>
-                <Education locale={locale.education} education={education}/>
-                <Certifications locale={locale.certifications} certifications={certifications}/>
-                <Experience locale={locale.experience} experience={experience}/>
             </div>
         </>
     );

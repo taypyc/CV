@@ -33,7 +33,7 @@ export const Certifications = ({ certifications, locale }: ITNTProps) => {
                     key={title}
                     css={style.item} rel="noreferrer">
                     <CheckmarkIcon/>
-                    <Typography variant="Text">{title}</Typography>
+                    <Typography css={style.title} variant="Text">{title}</Typography>
                 </a>
             )
         )), [certifications]);

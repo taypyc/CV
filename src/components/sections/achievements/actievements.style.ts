@@ -2,15 +2,18 @@
 import { Interpolation, Theme } from '@emotion/react';
 
 export const style: Interpolation<Theme> = ({ color, spacing }) => ({
-    display : 'grid',
-    gap : spacing.xs,
-    padding : `0 ${spacing.xs}px`,
-    gridTemplateColumns : '12px auto',
-    alignItems : 'flex-start',
-    textAlign : 'justify',
+    'p' : { margin : 0 },
+
+    'ul li' : {
+        display : 'flex',
+        alignItems : 'center',
+        width : '100%',
+        columnGap : '10px',
+        marginBottom : spacing.s,
+    },
 
     svg : {
-        marginTop : 2,
+        width : '12px',
         fill : color.text,
     },
 });

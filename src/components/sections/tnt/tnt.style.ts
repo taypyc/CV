@@ -1,22 +1,13 @@
 // MODULES
 import { Interpolation, Theme } from '@emotion/react';
 
-const container: Interpolation<Theme> = ({ dimensions, spacing }) => ({
-    display : 'grid',
-    gap : spacing.s,
-    gridColumnGap : spacing.l,
-    gridRowGap : spacing.xs,
-    padding : `0 ${spacing.xs}px`,
-    gridTemplateColumns : `${dimensions.headColumnWidth}px auto`,
-    alignItems : 'center',
-    textAlign : 'justify',
-});
-
-const head: Interpolation<Theme> = ({ color, spacing }) => ({
+const head: Interpolation<Theme> = ({ color }) => ({
     display : 'flex',
     alignItems : 'center',
-    gap : spacing.xs,
+    columnGap : '10px',
     alignSelf : 'flex-start',
+
+    'p' : { margin : 0 },
 
     'p::after' : { content : '":"' },
 
@@ -27,5 +18,5 @@ const head: Interpolation<Theme> = ({ color, spacing }) => ({
     },
 });
 
-export const style = { container, head };
+export const style = { head };
 

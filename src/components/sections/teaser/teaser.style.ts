@@ -2,7 +2,7 @@
 import { Interpolation, Theme } from '@emotion/react';
 
 // RESOURCES
-import { palette } from 'src/styles/palette.styles';
+// import { palette } from 'src/styles/palette.styles';
 
 export const container: Interpolation<Theme> = ({ color, font, layout, spacing }) => ({
     fontFamily : font.arial,
@@ -30,7 +30,7 @@ export const text: Interpolation<Theme> = ({ color }) => ({
     color : color.text,
 });
 
-export const accent: Interpolation<Theme> = ({ color }) => ({ color : palette.blue_science });
+export const accent: Interpolation<Theme> = () => ({});
 
 export const style = {
     accent,

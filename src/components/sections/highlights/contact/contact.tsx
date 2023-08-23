@@ -20,7 +20,7 @@ import { style } from 'src/components/sections/highlights/contact/contact.style'
 export const Contact = ({ href, label, type }: IContactData) => {
     const [text, setText] = useState(label);
 
-    const handleCopyClick = useCallback((text: string) => {
+    const handleCopyClick = useCallback(() => {
         navigator.clipboard.writeText(text);
         setText('copied');
         setTimeout(() => setText(label), 1000);

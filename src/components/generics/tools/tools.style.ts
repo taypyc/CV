@@ -19,8 +19,8 @@ export const button: Interpolation<Theme> = ({ color, spacing }) => ({
 export const container: Interpolation<Theme> = ({ color, spacing }) => ({
     backgroundColor : color.primary,
     borderRadius : spacing.s,
-    boxShadow : 'rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px',
     position : 'fixed',
+    zIndex : 1,
     right : spacing.l,
     bottom : spacing.l,
 });
