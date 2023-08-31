@@ -234,6 +234,64 @@ export const experience: IExperienceData[] = [
         ],
     },
     {
+        companyName : 'Liga.net',
+        position : 'Senior Full-Stack Developer',
+        career : ['frontend', 'magento'],
+        logo : {
+            filename : 'liga.png',
+            width : 384,
+            height : 182,
+
+        },
+        period : {
+            start : 2015,
+            end : 2016,
+        },
+        responsibilities : [
+            {
+                en : 'Maintain existing and development of new functionality of the portal, which consists of 6 separate sites.',
+                ua : `Підтримка існуючого та розробка нового функціоналу порталу, який складається з 6 окремих сайтів.`,
+            },
+            {
+                en : 'Participation in daily meetings related to portal improvements.',
+                ua : 'Участь у щоденних мітингах, які стосуються поліпшень порталу.',
+            },
+            {
+                en : 'Adaptive and responsive versions development of 6 main sites of the portal liga.net.',
+                ua : 'Розробка адаптивної та чуйної версій 6 основних сайтів порталу liga.net.',
+            },
+            {
+                en : 'Ensuring the quality of product functioning.',
+                ua : 'Забезпечення якості функціонування продукту.',
+            },
+        ],
+        achievements : [
+            {
+                en : `I have increased performance indicators for all portal sites to 95 points using such a tool as
+                Page Speed Insights.`,
+                ua : `Підвищив показники якості роботи всіх сайтів порталу до 95 пунктів, використовуючи такий інструмент як 
+                Page Speed Insights.`,
+            },
+            {
+                en : `Redesigned 6 portal sites from tabular layout to modern approaches to page layout.`,
+                ua : `Переробив 6 сайтів порталу з табличної верстки на сучасні підходи до верстки сторінок.`,
+            },
+            {
+                en : `For the first time in my professional career, I have took the job of supporting the
+                portal backend part and worked as a Full-Stack developer.`,
+                ua : `Вперше в своїй професійній кар'єрі взяв на себе роботу по підтримці серверного боку порталу 
+                та працював як Full-Stack розробник.`,
+            },
+            {
+                en : `During my work on the project, I have increased my knowledges level of server technologies,
+                such as PHP, MySql, Docker Engine, and also saved the company's resources for hiring an additional 
+                backend-developer.`,
+                ua : `За час роботи над проектом я підтягнув свій рівень знань серверних технологій, таких як 
+                PHP, MySql, Docker Engine, чим зекономив ресурси компанії по найму додаткового спеціаліста.`,
+            },
+        ],
+    },
+    {
         companyName : 'Lindenvalley',
         position : 'Front-End Developer',
         career : ['frontend', 'magento'],

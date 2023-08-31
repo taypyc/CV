@@ -23,8 +23,7 @@ const logo: CSSInterpolation = {
 const position: CSSInterpolation = {};
 
 const responsibilities: Interpolation<Theme> = ({ spacing }) => ({
-    textAlign : 'justify',
-    maxWidth : '650px',
+    textAlign : 'justify',    
 
     ul : { paddingLeft : spacing.s },
     li : { marginBottom : spacing.s },

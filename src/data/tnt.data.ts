@@ -48,7 +48,7 @@ const tnt: IToolData[] = [
             en : 'Infrastructure',
             ua : 'Інфраструктура',
         },
-        items : 'AWS, Docker/Devilbox, Jenkins, GitLab CI/CD, Vercel, LAMP-stack, Microsoft Azure',
+        items : 'AWS, Docker/Devilbox, Jenkins, GitLab CI/CD, Vercel, LAMP-stack, Microsoft Azure, Elastic Search / Open Search',
     },
     {
         career : ['frontend'],
@@ -83,6 +83,14 @@ const tnt: IToolData[] = [
             ua : 'Інструменти управління',
         },
         items : 'Jira, Confluence, Test Rail, Spira-Team, Rally, Trello, Wrike, Redmine, Basecamp',
+    },
+    {
+        career : ['magento', 'frontend'],
+        label : {
+            en : 'Additional developer tools',
+            ua : 'Додаткові інструменти розробника',
+        },
+        items : 'Page Speed Insights',
     },
     {
         career : ['frontend'],
