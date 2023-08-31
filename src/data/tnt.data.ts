@@ -48,7 +48,8 @@ const tnt: IToolData[] = [
             en : 'Infrastructure',
             ua : 'Інфраструктура',
         },
-        items : 'AWS, Docker/Devilbox, Jenkins, GitLab CI/CD, Vercel, LAMP-stack, Microsoft Azure, Elastic Search / Open Search',
+        items : `AWS, Docker/Devilbox, Jenkins, GitLab CI/CD, Vercel, LAMP-stack, Microsoft Azure, 
+        Elastic Search / Open Search`,
     },
     {
         career : ['frontend'],

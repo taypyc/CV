@@ -249,8 +249,10 @@ export const experience: IExperienceData[] = [
         },
         responsibilities : [
             {
-                en : 'Maintain existing and development of new functionality of the portal, which consists of 6 separate sites.',
-                ua : `Підтримка існуючого та розробка нового функціоналу порталу, який складається з 6 окремих сайтів.`,
+                en : `Maintain existing and development of new functionality of the portal, which consists of 6 
+                separate sites.`,
+                ua : `Підтримка існуючого та розробка нового функціоналу порталу, який складається з 6 окремих 
+                сайтів.`,
             },
             {
                 en : 'Participation in daily meetings related to portal improvements.',
@@ -267,14 +269,14 @@ export const experience: IExperienceData[] = [
         ],
         achievements : [
             {
-                en : `I have increased performance indicators for all portal sites to 95 points using such a tool as
-                Page Speed Insights.`,
-                ua : `Підвищив показники якості роботи всіх сайтів порталу до 95 пунктів, використовуючи такий інструмент як 
-                Page Speed Insights.`,
+                en : `I have increased performance indicators for all portal sites to 95 points using such a 
+                tool as Page Speed Insights.`,
+                ua : `Підвищив показники якості роботи всіх сайтів порталу до 95 пунктів, використовуючи такий 
+                інструмент як Page Speed Insights.`,
             },
             {
-                en : `Redesigned 6 portal sites from tabular layout to modern approaches to page layout.`,
-                ua : `Переробив 6 сайтів порталу з табличної верстки на сучасні підходи до верстки сторінок.`,
+                en : 'Redesigned 6 portal sites from tabular layout to modern approaches to page layout.',
+                ua : 'Переробив 6 сайтів порталу з табличної верстки на сучасні підходи до верстки сторінок.',
             },
             {
                 en : `For the first time in my professional career, I have took the job of supporting the
