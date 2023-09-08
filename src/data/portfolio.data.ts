@@ -37,25 +37,31 @@ export const portfolio: IPortfolioData[] = [
         name : 'Bestmobile',
         href : 'https://www.bestmobile.co.il/',
         icon : '',
-        description : '',
+        description : `BEST Mobile  is a chain of stores that offers products in a wide variety of 
+        content worlds such as: in mobile products, electrical products, gaming, perfume 
+        and perfume, fashion, toys, leisure, sports, trips, camping for home and garden & MORE. `,
     },
     {
         name : 'Kakelgiganten',
         href : 'https://kakelgiganten.se/',
         icon : '',
-        description : '',
+        description : `Widest range of tiles and clinker at the best market prices - on a modern 
+        website with easy navigation. Kakelgiganten wants customer's shopping experience to be pleasantly simple, 
+        efficient and fun.`,
     },
     {
         name : 'Gesa',
         href : 'https://gesa.at/',
         icon : '',
-        description : '',
+        description : `GESA is the synthesis of trade and production with technical and social competence, 
+        responsible and independent employees who live and practice the team spirit and have access to comprehensive 
+        know-how from numerous reference projects.`,
     },
     {
         name : 'Collinstreet',
         href : 'https://collinstreet.com/',
         icon : '',
-        description : '',
+        description : 'Texas Fruitcake & Pecan Cakes from Corsicana',
     },
     {
         name : 'Frenchbedroomcompany',
