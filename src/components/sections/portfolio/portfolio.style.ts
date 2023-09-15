@@ -8,4 +8,4 @@ export const style: Interpolation<Theme> = ({ spacing }) => ({
 
 export const portfolioWrapper: Interpolation<Theme> = () => ({ columns : 1 });
 
-export const description = () => ({ 'font-size' : '85%' });
+export const stack = () => ({ 'font-size' : '90%' });

@@ -66,7 +66,7 @@ const tnt: IToolData[] = [
             ua : 'Базові технології',
         },
         items : `JavaScript, TypeScript, HTML5, CSS, SASS/SCSS/LESS, Network protocols, HTTP, REST, Graph QL,
-        'SQL, Unix-based systems, cloud-based systems, client-server architecture, Version Control 
+        GraphCommerce, SQL, Unix-based systems, cloud-based systems, client-server architecture, Version Control 
         Systems (git/svn/mercurial)`,
     },
     {
@@ -91,7 +91,7 @@ const tnt: IToolData[] = [
             en : 'Additional developer tools',
             ua : 'Додаткові інструменти розробника',
         },
-        items : 'Page Speed Insights',
+        items : 'Google Page Speed Insights, Google Search Console, Google Analytics',
     },
     {
         career : ['frontend'],
