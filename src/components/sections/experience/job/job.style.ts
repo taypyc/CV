@@ -16,7 +16,7 @@ const period: CSSInterpolation = {
 
 const logo: CSSInterpolation = {
     textAlign : 'center',
-    maxWidth : '350px',
+    maxWidth : '250px',
     margin : '0 auto',
     paddingBottom : '20px',
 };
