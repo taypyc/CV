@@ -29,9 +29,9 @@ export const experience: IExperienceData[] = [
         position : 'Senior Angular Developer',
         career : ['frontend', 'magento'],
         logo : {
-            filename : 'ukrsibbank.jpg',
-            width : 726,
-            height : 204,
+            filename : 'ukrsibbank.png',
+            width : 363,
+            height : 102,
 
         },
         period : {
@@ -187,9 +187,9 @@ export const experience: IExperienceData[] = [
         position : 'Senior Magento Front-End Developer',
         career : ['frontend', 'magento'],
         logo : {
-            filename : 'ciklum.svg',
-            width : 160,
-            height : 80,
+            filename : 'ciklum.png',
+            width : 250,
+            height : 82,
 
         },
         period : {
@@ -239,8 +239,8 @@ export const experience: IExperienceData[] = [
         career : ['frontend', 'magento'],
         logo : {
             filename : 'liga.png',
-            width : 384,
-            height : 182,
+            width : 415,
+            height : 115,
 
         },
         period : {

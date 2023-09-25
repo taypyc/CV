@@ -16,7 +16,7 @@ const container: Interpolation<Theme> = ({ spacing }) => ({
     display : 'flex',
     flexWrap : 'wrap',
     alignItems : 'center',
-    padding : spacing.s,
+    padding : spacing.m,
     boxSizing : 'border-box',
     color : palette.gallery,
     boxShadow : '0 5px 5px -5px rgba(34, 60, 80, 0.6)',
@@ -27,6 +27,7 @@ const goal: Interpolation<Theme> = ({ spacing }) => ({
     textTransform : 'uppercase',
     color : palette.gallery,
     letterSpacing : 1,
+    margin : 0,
 
     '::after' : {
         content : '"/"',

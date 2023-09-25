@@ -1,4 +1,4 @@
 export const dimensions = {
     headColumnWidth : '35%',
-    pageWidth : 1024,
+    pageWidth : 1280,
 };

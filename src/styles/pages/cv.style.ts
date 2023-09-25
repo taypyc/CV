@@ -3,7 +3,7 @@ import { Interpolation, Theme } from '@emotion/react';
 
 const container: Interpolation<Theme> = ({ color, dimensions, layout, spacing }) => ({
     margin : '0 auto',
-    padding : spacing.l,
+    padding : spacing.m,
     maxWidth : dimensions.pageWidth,
     boxSizing : 'border-box',
     background : color.surface,

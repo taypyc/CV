@@ -5,6 +5,10 @@ const container: Interpolation<Theme> = ({ dimensions, spacing }) => ({
     display : 'grid',
     gap : spacing.l,
     gridTemplateColumns : `${dimensions.headColumnWidth} auto`,
+
+    /*  '@media (max-width : 500px)' : {
+        display : 'block',
+    }*/
 });
 
 const contacts: Interpolation<Theme> = ({ spacing }) => ({

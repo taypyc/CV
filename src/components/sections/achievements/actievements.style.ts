@@ -9,7 +9,7 @@ export const style: Interpolation<Theme> = ({ color, spacing }) => ({
         alignItems : 'center',
         width : '100%',
         columnGap : '10px',
-        marginBottom : spacing.s,
+        marginBottom : spacing.xs,
     },
 
     svg : {

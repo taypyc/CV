@@ -5,7 +5,7 @@ import { CSSInterpolation } from '@emotion/serialize';
 const container: Interpolation<Theme> = ({ color, spacing }) => ({
     padding : spacing.m,
 
-    ':nth-of-type(2n)' : { backgroundColor : color.background },
+    //  ':nth-child(odd)' : { backgroundColor : color.background },
 });
 
 const period: CSSInterpolation = {
@@ -16,8 +16,9 @@ const period: CSSInterpolation = {
 
 const logo: CSSInterpolation = {
     textAlign : 'center',
-    maxWidth : '250px',
+    maxWidth : '350px',
     margin : '0 auto',
+    paddingBottom : '20px',
 };
 
 const position: CSSInterpolation = {};

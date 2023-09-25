@@ -103,13 +103,13 @@ const CV: NextPage<ICVProps> = ({
                         locale={{ info : locale.info, summary : locale.summary }}
                         summary={summary}/>
                     <Achievements locale={locale.achievements} achievements={achievements} />
-                    <TNT locale={locale.tnt} tnts={tnt}/>
-                    <Portfolio locale={locale.portfolio} portfolio={portfolio} />
+                    <TNT locale={locale.tnt} tnts={tnt} />
                     {/* <Conferences locale={locale.conferences} conferences={conferences}/>*/}
                     {/* <Teaser {...locale.teaser}/> */}
                     <Education locale={locale.education} education={education}/>
                     <Certifications locale={locale.certifications} certifications={certifications}/>
                     <Experience locale={locale.experience} experience={experience}/>
+                    <Portfolio locale={locale.portfolio} portfolio={portfolio} />
                 </div>
             </div>
         </>
