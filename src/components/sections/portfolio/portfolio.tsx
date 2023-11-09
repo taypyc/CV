@@ -24,9 +24,11 @@ export const Portfolio = ({ locale, portfolio }: IConferencesProps) => {
                             {item.name}
                         </a>
                     </p>
-                    <p>
-                        <strong>Description:</strong> {item.description}
-                    </p>
+                    {item.description.length > 1 ? (
+                        <p>
+                           <strong>Description:</strong> {item.description}
+                        </p>
+                    ) : ''}
                     <p css={stack}><strong>Tech stack:</strong> {item.stack}</p>
                 </div>
             </>)

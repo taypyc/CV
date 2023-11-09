@@ -90,19 +90,14 @@ export const portfolio: IPortfolioData[] = [
         name : 'Brothers Country Supply',
         href : 'https://brotherscountrysupply.com/',
         icon : 'https://brotherscountrysupply.com/media/favicon/default/favicon.png',
-        description : `I have developed the entire front-end  part of the project inclusively with an Arabic 
-        version. Optimized pages loading using Google Page Speed Insights`,
+        description : '',
         stack : 'Magento, Magento CLI, Grunt, jQuery, knockoutJS, less, requireJS, mysql, elasticsearch',
     },
     {
         name : 'Bestmobile',
         href : 'https://www.bestmobile.co.il/',
         icon : '',
-        description : `BEST Mobile  is a chain of stores that offers products in a wide variety of 
-        content worlds such as: in mobile products, electrical products, gaming, perfume 
-        and perfume, fashion, toys, leisure, sports, trips, camping for home and garden & MORE.
-        I have developed the entire front-end part of the project and also customized third-party 
-        modules, optimized pages loading using Google Page Speed Insights.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -110,10 +105,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Kakelgiganten',
         href : 'https://kakelgiganten.se/',
         icon : '',
-        description : `Widest range of tiles and clinker at the best market prices - on a modern 
-        website with easy navigation. Kakelgiganten wants customer's shopping experience to be pleasantly simple, 
-        efficient and fun. I have developed the entire front-end part of the project and also customized third-party 
-        modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -121,9 +113,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'ENEA',
         href : 'https://www.enea.pl/',
         icon : '',
-        description : `I have developed the entire front-end part of the project and also customized third-party 
-        modules, developed custom checkout pages, optimized pages loading using Google Page Speed Insights, 
-        SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -131,8 +121,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Monkees of Greenville',
         href : 'https://www.monkeesofgreenville.com/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -140,9 +129,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Macta Beauty',
         href : 'https://www.mactabeauty.com/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages, 
-        configured content delivery network (CDN) for Magento.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -150,9 +137,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Kinbooks',
         href : 'https://www.kinbooks.co.il/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages, 
-        configured content delivery network (CDN) for Magento.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -160,8 +145,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Paneco',
         href : 'https://www.paneco.co.il/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages. `,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -169,8 +153,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Saynet',
         href : 'https://www.saynet.co.il/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages. `,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -178,8 +161,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Viva Mk network',
         href : 'https://vivamknetwork.co.uk/',
         icon : '',
-        description : `I have developed the entire front-end part of the project based on Luma theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages. `,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -187,11 +169,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Gesa',
         href : 'https://gesa.at/',
         icon : '',
-        description : `GESA is the synthesis of trade and production with technical and social 
-        competence, responsible and independent employees who live and practice the team spirit
-        and have access to comprehensive know-how from numerous reference projects. As a Front-End developer 
-        I have developed the entire front-end part of the project based on Porto theme and customized 
-        third-party modules, optimized pages loading using Google Page Speed Insights, SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -199,9 +177,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Collinstreet',
         href : 'https://collinstreet.com/',
         icon : '',
-        description : `Texas Fruitcake & Pecan Cakes from Corsicana. As a Front-End developer I have developed 
-        the entire front-end part of the project based on Porto theme and customized  third-party modules, optimized 
-        pages loading using Google Page Speed Insights, SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -209,9 +185,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Frenchbedroomcompany',
         href : 'https://frenchbedroomcompany.co.uk/',
         icon : '',
-        description : `As a part of a Front-End team I have developed UI elements for category pages and product pages 
-        of the project, customized third-party modules, optimized pages loading using Google Page Speed Insights, 
-        SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -219,10 +193,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Jamesreadtan',
         href : 'https://www.jamesreadtan.com/',
         icon : '',
-        description : `As a part of a Front-End team I have developed entire home page, implemented UI guide for 
-        project based on bootstrap CSS framework, developed category pages and product pages of the project, 
-        customized third-party modules, optimized pages loading using Google Page Speed Insights, 
-        SEO optimizations for pages.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch`,
     },
@@ -230,10 +201,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Genswiss',
         href : 'https://genswiss.com/',
         icon : '',
-        description : `As a part of a Front-End team I have implemented global UI guide for 
-        project, developed category pages and checkout pages, customized modules, optimized pages loading 
-        using Google Page Speed Insights, SEO optimizations for pages, maintained the project stability after final 
-        release.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -241,9 +209,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'You and all fashion',
         href : 'https://youandallfashion.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -251,9 +217,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Sophias Style',
         href : 'https://sophiasstyle.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -261,9 +225,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Ally Fashion',
         href : 'https://allyfashion.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD, Wrike`,
     },
@@ -271,9 +233,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Smartrike',
         href : 'https://www.smartrike.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -281,8 +241,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Brain MD',
         href : 'https://brainmd.com/',
         icon : '',
-        description : `As a Lead Front-End developer I made code reviews, also I was mentor for middle front-end 
-        developers and wrote technical documentation in Jira Confluence.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -290,8 +249,7 @@ export const portfolio: IPortfolioData[] = [
         name : 'Pool Profi 24',
         href : 'https://pool-profi24.de/',
         icon : '',
-        description : `As a Lead Front-End developer I made code reviews, also I was mentor for junior front-end 
-        developers.`,
+        description : '',
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
         elasticsearch, Gitlab CI/CD`,
     },
@@ -299,147 +257,126 @@ export const portfolio: IPortfolioData[] = [
         name : 'Delitlv',
         href : 'https://www.delitlv.co.il/',
         icon : '',
-        description : `As a Lead Front-End developer I supported project stability during a half of a year after the 
-        final project release.`,
+        description : '',
         stack : 'Magento 1, xml, css, html, mooTools',
     },
     {
         name : 'B2Bfunding',
         href : 'https://b2bfunding.net/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : 'PHP, less, HTML5, javascript',
     },
     {
         name : 'B2BMerchants',
         href : 'https://b2bmerchants.net/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : 'PHP, less, HTML5, javascript',
     },
     {
         name : 'SOSgarde',
         href : 'https://sosgarde.ca/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
-        optimizations for pages, maintained the project stability after final release.`,
+        description : '',
         stack : 'PHP, SASS, HTML5, javascript',
     },
     {
         name : 'Nibulon',
         href : 'https://nibulon.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented entire frontend side of the project, 
-        developed style guide, optimized pages loading, made SEO improvements for pages.`,
+        description : '',
         stack : 'PHP, CSS3, HTML5, javascript',
     },
     {
         name : 'Bob The Printer',
         href : 'https://bobtheprinter.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented design from Zeplin application to a 
-        wordpress theme, developed style guide, optimized pages loading, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, Wordpress, CSS3, HTML5, javascript, Zeplin app',
     },
     {
         name : 'Music Trade',
         href : 'https://musictrade.pro/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented design from Zeplin application to a 
-        wordpress theme, developed style guide, optimized pages loading, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, Wordpress, CSS3, HTML5, javascript, Zeplin app',
     },
     {
         name : 'Spyder Pop',
         href : 'https://spyderpop.com/',
         icon : '',
-        description : `As a Lead Front-End developer I have implemented design from Figma application to a 
-        wordpress theme, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP/Wordpress, CSS3, HTML5, javascript, figma app',
     },
     {
         name : 'Schoemaker',
         href : 'http://schoemaker.de/',
         icon : '',
-        description : `As a Front-End player I have implemented design from Figma application to a 
-        wordpress theme, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP/Wordpress, CSS3, HTML5, javascript, AdobeXD app',
     },
     {
         name : 'Nicole Nemati',
         href : 'https://nicole-nemati.ch/',
         icon : '',
-        description : `As a Front-End player I have implemented design from Figma application to a 
-        wordpress theme, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP/Wordpress, CSS3, HTML5, javascript, Figma app',
     },
     {
         name : 'Heimarbeit',
         href : 'http://heimarbeit.de/',
         icon : '',
-        description : `As a Front-End player I have implemented design from Figma application to a 
-        wordpress theme, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP/Wordpress, CSS3, HTML5, javascript, Figma app',
     },
     {
         name : 'West music',
         href : 'https://www.westmusic.com/',
         icon : '',
-        description : `As a Front-End player I have implemented design from Figma application to a 
-        wordpress theme, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP/Wordpress, CSS3, HTML5, javascript, Figma app',
     },
     {
         name : 'Anyprices',
         href : 'https://www.anyprices.com/',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Figma application to 
-        HTML5, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, javascript, Figma App',
     },
     {
         name : 'Bastion',
         href : 'https://bastion.tv/',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Figma application to 
-        markup, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, javascript, Figma App',
     },
     {
         name : 'English Masters',
         href : 'https://englishmasters.mk.ua/',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Figma application to 
-        markup, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, javascript, Figma App',
     },
     {
         name : 'Sport-power',
         href : 'https://sport-power.com.ua/ua/',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Adobe XD application to 
-        markup, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, Javascript, Adobe XD',
     },
     {
         name : 'Planet4x4',
         href : 'https://planet4x4.com.ua/',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Adobe XD application to 
-        markup, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, javascript, AdobeXD',
     },
     {
         name : 'TT Cup',
         href : 'https://ttcup.com',
         icon : '',
-        description : `As a Front-End developer I have implemented design from Adobe XD application to 
-        markup, developed style guide, made SEO improvements for project.`,
+        description : '',
         stack : 'PHP, html5, css3, javascript, Adobe XD',
     },
 ];
