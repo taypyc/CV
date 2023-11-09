@@ -265,7 +265,7 @@ export const portfolio: IPortfolioData[] = [
         developed style guide, customized modules, optimized pages loading using Google Page Speed, made SEO 
         optimizations for pages, maintained the project stability after final release.`,
         stack : `Magento, Magento CLI, Grunt, jQuery, Devilbox (Docker), knockoutJS, less, requireJS, phpMyAdmin, 
-        elasticsearch, Gitlab CI/CD`,
+        elasticsearch, Gitlab CI/CD, Wrike`,
     },
     {
         name : 'Smartrike',
@@ -301,7 +301,7 @@ export const portfolio: IPortfolioData[] = [
         icon : '',
         description : `As a Lead Front-End developer I supported project stability during a half of a year after the 
         final project release.`,
-        stack : 'Magento 1, mysql, css, html, mooTools',
+        stack : 'Magento 1, xml, css, html, mooTools',
     },
     {
         name : 'B2Bfunding',
@@ -344,7 +344,7 @@ export const portfolio: IPortfolioData[] = [
         icon : '',
         description : `As a Lead Front-End developer I have implemented design from Zeplin application to a 
         wordpress theme, developed style guide, optimized pages loading, made SEO improvements for project.`,
-        stack : 'PHP/Wordpress, CSS3, HTML5, javascript, zeplin app',
+        stack : 'PHP, Wordpress, CSS3, HTML5, javascript, Zeplin app',
     },
     {
         name : 'Music Trade',
@@ -352,7 +352,7 @@ export const portfolio: IPortfolioData[] = [
         icon : '',
         description : `As a Lead Front-End developer I have implemented design from Zeplin application to a 
         wordpress theme, developed style guide, optimized pages loading, made SEO improvements for project.`,
-        stack : 'PHP/Wordpress, CSS3, HTML5, javascript, zeplin',
+        stack : 'PHP, Wordpress, CSS3, HTML5, javascript, Zeplin app',
     },
     {
         name : 'Spyder Pop',
@@ -368,7 +368,7 @@ export const portfolio: IPortfolioData[] = [
         icon : '',
         description : `As a Front-End player I have implemented design from Figma application to a 
         wordpress theme, developed style guide, made SEO improvements for project.`,
-        stack : 'PHP/Wordpress, CSS3, HTML5, javascript, Figma app',
+        stack : 'PHP/Wordpress, CSS3, HTML5, javascript, AdobeXD app',
     },
     {
         name : 'Nicole Nemati',

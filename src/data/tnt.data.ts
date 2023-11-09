@@ -16,7 +16,8 @@ const tnt: IToolData[] = [
             en : 'Front End',
             ua : 'Фронтенд',
         },
-        items : 'JavaScript, NextJS, React, Redux, Redux Toolkit, CSS-in-JS, GraphQL, Grunt/Gulp/Webpack, jQuery',
+        items : `JavaScript, NextJS, React, Redux, Redux Toolkit, VueJS, VueStorefront, Hygraph, CSS-in-JS, GraphQL, 
+        Grunt / Gulp / Webpack / Vite, jQuery`,
     },
     {
         career : ['frontend'],
@@ -108,8 +109,8 @@ const tnt: IToolData[] = [
             en : 'Мадженто-стек',
             ua : 'Magento stack',
         },
-        items : 'jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, composer, NodeJS, Magento CLI, Magento PWA ' +
-        'Studio, GraphQL, ElasticSearch, OpenSearch',
+        items : `jQuery, KnockoutJS, RequireJS, XML Layouts, Grunt, Composer, Docker, NodeJS, Magento CLI,
+        Magento PWAStudio, GraphCommerce, Hygraph, Hyva Theme, GraphQL, ElasticSearch, OpenSearch`,
     },
     {
         career : ['frontend', 'magento'],

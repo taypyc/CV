@@ -235,7 +235,7 @@ export const experience: IExperienceData[] = [
     },
     {
         companyName : 'Liga.net',
-        position : 'Senior Full-Stack Developer',
+        position : 'Middle Full-Stack Developer',
         career : ['frontend', 'magento'],
         logo : {
             filename : 'liga.png',
@@ -289,7 +289,8 @@ export const experience: IExperienceData[] = [
                 such as PHP, MySql, Docker Engine, and also saved the company's resources for hiring an additional 
                 backend-developer.`,
                 ua : `За час роботи над проектом я підтягнув свій рівень знань серверних технологій, таких як 
-                PHP, MySql, Docker Engine, чим зекономив ресурси компанії по найму додаткового спеціаліста.`,
+                PHP, MySql, Docker Engine, чим зекономив ресурси компанії по найму додаткового спеціаліста з 
+                бекенд розробки.`,
             },
         ],
     },
@@ -322,7 +323,7 @@ export const experience: IExperienceData[] = [
                 en : `Version Control: Gained experience with version control systems such as Git,
                 SVN, Mercurial for code collaboration and change tracking.`,
                 ua : `Контроль версій: Набув досвіду роботи із системами контролю версій, таких як Git, 
-                SVN, Mercurial для спільної роботи над кодом та відстеження змін.`,
+                SVN, Mercurial для спільної роботи над кодом та відстеження змін`,
             },
             {
                 en : `Semantic HTML. Using semantic HTML tags and attributes to improve accessibility and
@@ -356,7 +357,7 @@ export const experience: IExperienceData[] = [
         },
         period : {
             start : 2007,
-            end : 2011,
+            end : 2012,
         },
         responsibilities : [
             {
