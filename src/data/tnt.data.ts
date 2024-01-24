@@ -16,8 +16,8 @@ const tnt: IToolData[] = [
             en : 'Front End',
             ua : 'Фронтенд',
         },
-        items : `JavaScript, NextJS, React, Redux, Redux Toolkit, VueJS, VueStorefront, Hygraph, CSS-in-JS, GraphQL, 
-        Grunt / Gulp / Webpack / Vite, jQuery`,
+        items : `JavaScript (EcmaScript 6+), Typescript, NextJS, React, Redux, Redux Toolkit, Angular, EmberJS,
+        VueJS, VueStorefront, Hygraph, GraphQL, Grunt / Gulp / Webpack / Vite, jQuery`,
     },
     {
         career : ['frontend'],
@@ -25,7 +25,7 @@ const tnt: IToolData[] = [
             en : 'Styling',
             ua : 'Стилізація',
         },
-        items : 'Tailwind, Styled Components, SASS/SCSS/LESS, Emotion, Styled JSX, CSS modules, CSS 3',
+        items : 'Tailwind, Styled Components, SASS/SCSS/LESS, Emotion, Styled JSX, CSS modules, CSS 3, CSS-in-JS',
     },
     {
         career : ['frontend'],
@@ -41,7 +41,7 @@ const tnt: IToolData[] = [
             en : 'Frameworks',
             ua : 'Фреймворки',
         },
-        items : 'Bootstrap, Boilerplate',
+        items : 'Bootstrap, Boilerplate, Leaflet',
     },
     {
         career : ['frontend', 'magento'],

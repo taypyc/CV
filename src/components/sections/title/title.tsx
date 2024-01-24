@@ -37,7 +37,6 @@ export function Title({ goals, name, qrCode }: ITitleProps) {
                 options={{
                     type : 'image/webp',
                     quality : 0.3,
-                    level : 'M',
                     margin : 3,
                     scale : 4,
                     width : 100,

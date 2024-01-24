@@ -1,5 +1,6 @@
 // MODULES
 import { useMemo } from 'react';
+import { Typography } from 'src/components/generics/typography/typography';
 
 // RESOURCES
 import { IPortfolioData } from 'src/data/portfolio.data';
@@ -19,17 +20,21 @@ export const Portfolio = ({ locale, portfolio }: IConferencesProps) => {
         portfolio.map(item => (
             <>
                 <div css={style} key={item.href}>
-                    <p>
+                    <Typography variant="Text">
                         <a target="_blank" rel="noreferrer" href={item.href}>
                             {item.name}
                         </a>
-                    </p>
+                    </Typography>
                     {item.description.length > 1 ? (
-                        <p>
-                           <strong>Description:</strong> {item.description}
-                        </p>
+                        <Typography variant="Text">
+                            <strong>Description:</strong> {item.description}
+                        </Typography>
                     ) : ''}
-                    <p css={stack}><strong>Tech stack:</strong> {item.stack}</p>
+                    <Typography variant="Text">
+                        <span css={stack}>
+                            <strong>Tech stack:</strong> {item.stack}
+                        </span>
+                    </Typography>
                 </div>
             </>)
         )), [portfolio]);
