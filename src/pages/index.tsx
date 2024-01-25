@@ -17,19 +17,15 @@ import { style } from 'src/styles/pages/home.style';
  */
 const Home: NextPage = () => (
     <div css={style.container}>
-        <Link href={page.cv.frontend.route(defaultLanguage)}>
-            <a css={style.button}>
-                <Typography variant="Heading 3">
-                    Front-End Developer
-                </Typography>
-            </a>
+        <Link href={page.cv.frontend.route(defaultLanguage)} css={style.button}>
+            <Typography variant="Heading 3">
+                Front-End Developer
+            </Typography>
         </Link>
-        <Link href={page.cv.magento.route('en')}>
-            <a css={style.button}>
-                <Typography variant="Heading 3">
-                    Magento Developer
-                </Typography>
-            </a>
+        <Link href={page.cv.magento.route('en')} css={style.button}>
+            <Typography variant="Heading 3">
+                Magento Developer
+            </Typography>
         </Link>
     </div>
 );

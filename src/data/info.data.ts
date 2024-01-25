@@ -28,8 +28,8 @@ export interface IQRCode {
 type TQRCodeData = { [key in TCareer]: IQRCode };
 
 const qrCode: TQRCodeData = {
-    frontend : { link : 'https://gitlab.com/taypyc' },
-    magento : { link : 'https://gitlab.com/taypyc' },
+    frontend : { link : 'https://github.com/taypyc' },
+    magento : { link : 'https://github.com/taypyc' },
 };
 
 export { name, qrCode };

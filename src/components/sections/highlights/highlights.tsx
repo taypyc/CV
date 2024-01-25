@@ -26,7 +26,7 @@ export const Highlights = ({ contacts, languages, locale, summary }: IHighlights
 
     const renderContacts = useMemo(() => (
         contacts.map(contact => <Contact key={contact.label} {...contact}/>)
-    ), [languages]);
+    ), [contacts]);
 
     const renderLanguages = useMemo(() => (
         languages.map(language => <Language language={language} key={language.language}/>)

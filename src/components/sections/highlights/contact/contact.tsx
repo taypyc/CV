@@ -24,7 +24,7 @@ export const Contact = ({ href, label, type }: IContactData) => {
         navigator.clipboard.writeText(text);
         setText('copied');
         setTimeout(() => setText(label), 1000);
-    }, []);
+    }, [label, text]);
 
     const renderContactIcon = useCallback((contactType: TContact) => {
         switch (contactType) {

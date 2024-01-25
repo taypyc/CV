@@ -21,14 +21,12 @@ export const Conferences = ({ conferences, locale }: IConferencesProps) => {
     const renderConferences = useMemo(() => (
         conferences.map(event => (
                 <Link href={event.media} key={event.title}>
-                    <a target="_blank">
-                        <Image
-                            src={`/static/img/conferences/${event.logo.src}`}
-                            height={75}
-                            width={event.logo.width}
-                            alt={`${event.title} logo`}
-                        />
-                    </a>
+                    <Image
+                        src={`/static/img/conferences/${event.logo.src}`}
+                        height={75}
+                        width={event.logo.width}
+                        alt={`${event.title} logo`}
+                    />
                 </Link>
             )
         )), [conferences]);

@@ -20,10 +20,6 @@ export const goals: IGoalData[] = [
         label : 'React developer',
     },
     {
-        career : ['frontend'],
-        label : 'Dev Ops',
-    },
-    {
         career : ['magento'],
         label : 'Magento Lead Front-End developer',
     },
