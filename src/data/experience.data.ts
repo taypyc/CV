@@ -36,7 +36,7 @@ export const experience: IExperienceData[] = [
         },
         period : {
             start : 2022,
-            end : 2023,
+            end : 2024,
         },
         responsibilities : [
             {
